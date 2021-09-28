@@ -5,7 +5,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "terraform_ec2" {
-  ami = "ami-062f78fda82ba540f"
+  ami = "ami-00dfe2c7ce89a450b"
   instance_type = "t2.micro"
   key_name = "newKey"
   user_data = file("./TfScript.sh")
