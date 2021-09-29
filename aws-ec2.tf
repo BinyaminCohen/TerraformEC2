@@ -1,7 +1,7 @@
 provider "aws" {
   region = "us-east-2"
-  access_key = "AKIAVHPCKY7XQKWLWPFU"
-  secret_key = "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"
+  access_key = "xxxxxxxxxxxxxxxx"
+  secret_key = "xxxxxxxxxxxxxxxx"
 }
 
 resource "aws_instance" "terraform_ec2" {
